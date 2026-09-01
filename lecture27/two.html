@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>card3</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container{
+      width: 100vw;
+      height: 100vh;
+      min-width: 900px;
+      /* min-height: 1500px; */
+      /* background-image: linear-gradient(120deg, #cab1e1 0%, #8ec5fc 100%); */
+      background-image: linear-gradient(120deg, #415b8d 0%, #2c3a80 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0%;
+    }
+
+    .leftBox{
+      height: 50vh;
+      width: 30vw;
+      padding: 20px;
+      background-color: rgb(61, 5, 69);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 15%;
+      
+    }
+
+    .rightBox img{
+      height: 50vh;
+      width: 30vw;
+      /* background-color: rgb(88, 9, 95);
+      color: white; */
+      
+    }
+    .textViews{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 15%;
+
+    }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="leftBox">
+        <h2>
+          Get insights that help your business grow
+        </h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id molestias saepe fugiat excepturi. Dicta, non!
+        </p>
+
+        <div class="textViews">
+          <div class="text1">
+            <h2>10K+ </h2>
+          <p>Comments</p>
+          </div>
+
+          <div class="text2">
+            <h2>214</h2>
+            <p>Paid Users</p>
+          </div>
+
+          <div class="text3">
+            <h2>12M+</h2>
+            <p>Views</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="rightBox">
+        <img src="image2.jpg" alt="image2">
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
